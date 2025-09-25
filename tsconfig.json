@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "target": "ES2022", // Node 22 supports ES2022 features
+    "module": "NodeNext", // ESM modules
+    "moduleResolution": "NodeNext", // Resolve imports as Node ESM
+    "esModuleInterop": true, // Allow default imports from CJS modules
+    "forceConsistentCasingInFileNames": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "outDir": "dist", // Compiled files go here
+    "resolveJsonModule": true,
+    "isolatedModules": true
+  },
+  "include": ["src"],
+  "exclude": ["node_modules", "dist"]
+}
